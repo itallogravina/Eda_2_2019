@@ -18,7 +18,7 @@ int main(int argc, char const *argv[]) {
     m = total % 372 / 31;
 
     d = total % 372 % 31;
-  printf("%d \n%d \n%d\n",y,m,d );
+  printf("%d\n%d\n%d\n",y,m,d );
   }
 else{
     printf("data invalida\n");
