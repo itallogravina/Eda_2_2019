@@ -1,0 +1,30 @@
+1)
+ptr+1 apontaria para a casa de nume 1001 porque houve uma incremetação no seu valor
+(*ptr)+1 iria somar o valor atribuido ao ponteiro +1
+*(ptr+1) ira mostrar o segundo valor na variavel no caso seria o 2 posis a possição dele e 1002
+*(ptr+10) ira apresentar 0 pois na possição 1010 nao apresenta nehum valor atribuido entao apresntase
+como 0.
+
+4)
+vetor=vetor+2 nao pode fazer isso pos v e um vetor e vetor nao pode ser manipulado como se fosse um inteiro.
+vetor++ isso nao pode ser feito pois vetor jat tem um tamnho definido e nao e assim que aumenta seu tamanho
+vetor=ponteiro nao podemos atribuir a uma matrix um ponteiro.
+ponteiro=vetor esta e valida pois o ponteiro ira receber a primeira posição do vetor.
+ponteiro=vetor+2 e valido, mas ele iniciará na segunda posição.
+
+5)
+a função pega a primeira posição da plavra e o tamanho char e imprime letra por letra.
+
+13)
+Não pois a manipulação de string mesmo sendo o endereço delas nao pode ser feito desta forma.
+teria que ser feito com ajuda da função da biblioteca do string.h ficaria
+    troca(char *x,char *y){
+    char *tmp;
+    strcpy(tmp,s1);
+    strcpy(s1,s2);
+    strcpy(s2,tmp);}
+
+15)
+char* concat(char *str1, char *str2) {
+ return  strcat(str1, str2);
+}
